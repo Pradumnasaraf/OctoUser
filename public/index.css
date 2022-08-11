@@ -35,13 +35,13 @@ body {
 
 #title-box {
     height: 20vh;
+    width: 92vw;
     display: flex;
     justify-content: center;
     align-items: center;
     Flex-direction: column;
     font-size: 1.5em;
     border: 2px solid rgb(189, 181, 181);
-    padding: 0px 30vw;
 }
 #title {
     font-size: 1.8em;

@@ -12,8 +12,8 @@ searchBtn.addEventListener('click', () => {
                 return response.json();
             }
             else {
-                output.style.color = '#FF3131';
                 userImage.style.visibility = 'hidden';
+                output.style.color = '#FF3131';
                 output.innerHTML = `User not found`;
             }
         })

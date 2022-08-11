@@ -1,3 +1,12 @@
+## [0.1.3](https://github.com/Pradumnasaraf/OctoUser/compare/v0.1.2...v0.1.3) (2022-08-11)
+
+
+### Bug Fixes
+
+* image issue with invalid user ([#2](https://github.com/Pradumnasaraf/OctoUser/issues/2)) ([e9b3017](https://github.com/Pradumnasaraf/OctoUser/commit/e9b3017fd37f64f85f85c80209ce9b766a611b6f))
+
+
+
 ## [0.1.2](https://github.com/Pradumnasaraf/OctoUser/compare/v0.1.1...v0.1.2) (2022-08-11)
 
 

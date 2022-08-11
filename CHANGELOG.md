@@ -1,3 +1,12 @@
+## [0.1.2](https://github.com/Pradumnasaraf/OctoUser/compare/v0.1.1...v0.1.2) (2022-08-11)
+
+
+### Bug Fixes
+
+* index.js path ([70bae82](https://github.com/Pradumnasaraf/OctoUser/commit/70bae827e04365dbeb7b61e65cf23b760d9dba99))
+
+
+
 ## [0.1.1](https://github.com/Pradumnasaraf/OctoUser/compare/v0.1.0...v0.1.1) (2022-08-11)
 
 

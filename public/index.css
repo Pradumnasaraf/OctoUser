@@ -44,14 +44,14 @@ body {
     border: 2px solid rgb(189, 181, 181);
 }
 #title {
-    font-size: 1.8em;
-    margin-bottom: 12px;
+    font-size: 30px;
+    margin: 5px 10px;
     color: #fd5353;
 }
 #description {
     font-size: 0.8em;
     color: #dbd8d8;
-
+    margin-left: 18px;
 }
 
 /******************** Serach Box ********************/
@@ -98,15 +98,18 @@ body {
     border: 2px solid rgb(189, 181, 181);
 }
 #profile-img {
-    height: 20vh;
+    height: 129px;
     width: auto;
+    margin-left: 22px;
     border: 2px solid rgb(189, 181, 181);
     border-radius: 100px;
     visibility: hidden;
 }
 
 #output {
-    font-size: 1.5em;
+    margin: 5px 3px;
+    padding-right: 18px;
+    font-size: 14px;
 }
 
 /******** Footer ********/

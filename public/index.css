@@ -1,9 +1,10 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
+
 body {
-    height: 100vh;
     background-color: #2F4F4F;
     display: flex;
     flex-direction: column;
@@ -14,28 +15,26 @@ body {
 }
 
 /******************** HEAD********************/
-#head {
-    height: 8vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content:flex-end
+.head {
+width: 5em;
+margin: 0.5em;
+
 }
-#head>a>img {
-    height: 5vh;
-    width: auto;
-    margin-right: 8vh;
+.head .github-logo{
+    width: 100%;
     opacity: 0.6;
 }
-#head>a>img:hover{
+.head .github-logo:hover{
     opacity: 0.85;
 }
 
+
+
 /********************Title********************/
 
-#title-box {
-    height: 20vh;
-    width: 92vw;
+.title-box {
+    padding: 2em;
+    /* margin: 2em; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,12 +42,12 @@ body {
     font-size: 1.5em;
     border: 2px solid rgb(189, 181, 181);
 }
-#title {
-    font-size: 1.8em;
+.title {
+    font-size: 2.5em;
     margin-bottom: 12px;
     color: #fd5353;
 }
-#description {
+.description {
     font-size: 0.8em;
     color: #dbd8d8;
 
@@ -56,15 +55,17 @@ body {
 
 /******************** Serach Box ********************/
 
-#search-box {
-    height: 25vh;
+.search-box {
+    margin: 1em 5em;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    font-size: 1em;
 }
 #user-input {
-    height: 8vh;
-    width: 45vw;
+    padding: 2em;
     font-family: 'Press Start 2P', cursive;
     color: rgb(82, 94, 252);
     border: 5px solid#A9A9A9;
@@ -75,8 +76,8 @@ body {
     cursor: url(../image/cursor/octocat-black.png), auto;
 }
 #search-btn {
-    height: 8vh;
-    width: 10vw;
+    margin: 1em;
+    padding: 2em;
     font-family: 'Press Start 2P', cursive;
     color: #e9e9e9;
     background-color: #696969;
@@ -88,20 +89,27 @@ body {
     margin-left: 12px;
 }
 
+#search-btn:active{
+    background-color: #e9e9e9;
+    color: #696969;
+}
+
+
 /******************** Ou ********************/
-#output-box {
-    height: 40vh;
-    width: 92vw;
+.output-box {
+    margin: 1em;
+    padding: 2em;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
     border: 2px solid rgb(189, 181, 181);
 }
 #profile-img {
-    height: 20vh;
-    width: auto;
+    width: 10em;
+    margin: 1em;
     border: 2px solid rgb(189, 181, 181);
-    border-radius: 100px;
+    border-radius: 100%;
     visibility: hidden;
 }
 
@@ -111,21 +119,49 @@ body {
 
 /******** Footer ********/
 
-#footer-box {
-    height: 7vh;
+.footer-box {
+    /* height: 7vh; */
+    margin: 1em;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 0.6em;
 }
-#footer-el {
+.footer-el {
     text-decoration: none;
     color: #dbd8d8;
 }
-#footer-el>a {
+.footer-el>a {
     text-decoration: none;
     color: rgb(253, 83, 83);
 }
-#footer-el>a:hover {
+.footer-el>a:hover {
     color:  #dbd8d8;
+}
+
+
+/* MEDIA QUERIES */
+@media  (max-width:800px) {
+    body{
+        font-size: 14px;
+    }
+
+
+}
+
+@media (max-width:600px){
+    .title-box {
+        font-size: 1em;
+    }
+    .search-box {
+        
+        font-size: 0.8em;
+        
+    }
+}
+@media  (max-width:375px) {
+    body{
+        font-size: 10px;
+    }
+
 }

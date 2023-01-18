@@ -123,8 +123,8 @@ body {
 }
 
 #output-box div {
-    width: 5rem;
-    height: 5rem;
+    width: 10rem;
+    height: 10rem;
     margin: 1rem;
 }
 
@@ -141,6 +141,7 @@ body {
     font-size: calc(0.7rem + 1vw);
     flex: 1 1 20rem;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 /******** Footer ********/

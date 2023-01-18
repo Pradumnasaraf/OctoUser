@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+
 body {
     height: 100vh;
     background-color: #2F4F4F;
@@ -19,15 +20,18 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content:flex-end
+    justify-content: flex-end
 }
+
 #head>a>img {
     height: 5vh;
     width: auto;
     margin-right: 8vh;
     opacity: 0.6;
+    height: calc(1rem + 1vh);
 }
-#head>a>img:hover{
+
+#head>a>img:hover {
     opacity: 0.85;
 }
 
@@ -42,26 +46,38 @@ body {
     Flex-direction: column;
     font-size: 1.5em;
     border: 2px solid rgb(189, 181, 181);
+    border-radius: 1rem;
 }
+
 #title {
-    font-size: 1.8em;
+    font-size: calc(1rem + 1vw);
     margin-bottom: 12px;
     color: #fd5353;
 }
+
 #description {
-    font-size: 0.8em;
+    font-size: calc(0.7rem + 1vw);
     color: #dbd8d8;
 
+}
+
+@media screen and (max-width: 1379px) {
+    #title-box {
+        font-size: 1rem;
+    }
 }
 
 /******************** Serach Box ********************/
 
 #search-box {
+    width: 90%;
     height: 25vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
+
 #user-input {
     height: 8vh;
     width: 45vw;
@@ -71,9 +87,11 @@ body {
     background-color: #dbd8d8;
     border-radius: 20px;
     text-align: center;
-    font-size: 1.2em;
+    flex: 1 1 30rem;
+    font-size: calc(0.5rem + 1vw);
     cursor: url(../image/cursor/octocat-black.png), auto;
 }
+
 #search-btn {
     height: 8vh;
     width: 10vw;
@@ -84,7 +102,8 @@ body {
     border: 5px solid#bbb9b9;
     border-radius: 20px;
     text-align: center;
-    font-size: 1.0em;
+    flex: 1 1 10rem;
+    font-size: calc(0.5rem + 1vw);
     margin-left: 12px;
 }
 
@@ -96,7 +115,9 @@ body {
     justify-content: space-evenly;
     align-items: center;
     border: 2px solid rgb(189, 181, 181);
+    border-radius: 1rem;
 }
+
 #profile-img {
     height: 20vh;
     width: auto;
@@ -106,7 +127,7 @@ body {
 }
 
 #output {
-    font-size: 1.5em;
+    font-size: calc(0.5rem + 1vw);
 }
 
 /******** Footer ********/
@@ -118,14 +139,17 @@ body {
     align-items: center;
     font-size: 0.6em;
 }
+
 #footer-el {
     text-decoration: none;
     color: #dbd8d8;
 }
+
 #footer-el>a {
     text-decoration: none;
     color: rgb(253, 83, 83);
 }
+
 #footer-el>a:hover {
-    color:  #dbd8d8;
+    color: #dbd8d8;
 }

@@ -112,22 +112,34 @@ body {
     height: 40vh;
     width: 92vw;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     border: 2px solid rgb(189, 181, 181);
     border-radius: 1rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#output-box div {
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem;
 }
 
 #profile-img {
-    height: 20vh;
-    width: auto;
+    height: 100%;
+    width: 100%;
     border: 2px solid rgb(189, 181, 181);
     border-radius: 100px;
     visibility: hidden;
+    flex: 1 1 5rem;
 }
 
 #output {
     font-size: calc(0.5rem + 1vw);
+    flex: 1 1 20rem;
+    text-align: center;
 }
 
 /******** Footer ********/

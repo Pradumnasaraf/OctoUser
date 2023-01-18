@@ -1,3 +1,12 @@
+## [0.1.4](https://github.com/Pradumnasaraf/OctoUser/compare/v0.1.3...v0.1.4) (2023-01-18)
+
+
+### Bug Fixes
+
+* Optimised UI and responsive issue in mobile (small devices). ([#13](https://github.com/Pradumnasaraf/OctoUser/issues/13)) ([4d6112a](https://github.com/Pradumnasaraf/OctoUser/commit/4d6112a12e3de4123acf3b3fc4618ab87f9557f9))
+
+
+
 ## [0.1.3](https://github.com/Pradumnasaraf/OctoUser/compare/v0.1.2...v0.1.3) (2022-08-11)
 
 

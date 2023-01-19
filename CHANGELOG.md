@@ -1,3 +1,12 @@
+## [0.1.5](https://github.com/Pradumnasaraf/OctoUser/compare/v0.1.4...v0.1.5) (2023-01-19)
+
+
+### Reverts
+
+* Revert "docs: added project working (#8)" ([f60bd34](https://github.com/Pradumnasaraf/OctoUser/commit/f60bd348704ff0598b869cdae36342a78d927239)), closes [#8](https://github.com/Pradumnasaraf/OctoUser/issues/8)
+
+
+
 ## [0.1.4](https://github.com/Pradumnasaraf/OctoUser/compare/v0.1.3...v0.1.4) (2023-01-18)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * titile-box property ([9d4e415](https://github.com/Pradumnasaraf/OctoUser/commit/9d4e41597d3073cf78d4eff5a9a1e1d34b2f27c4))
-
-
-
-# [0.1.0](https://github.com/Pradumnasaraf/OctoUser/compare/5efb1cc5bc868b1dc81afec54f28cb510acfee0e...v0.1.0) (2022-08-11)
-
-
-### Features
-
-* Added initial files ([5efb1cc](https://github.com/Pradumnasaraf/OctoUser/commit/5efb1cc5bc868b1dc81afec54f28cb510acfee0e))
 
 
 

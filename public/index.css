@@ -134,12 +134,10 @@ body {
     border: 2px solid rgb(189, 181, 181);
     border-radius: 100px;
     visibility: hidden;
-    flex: 1 1 5rem;
 }
 
 #output {
     font-size: calc(0.7rem + 1vw);
-    flex: 1 1 20rem;
     text-align: center;
     margin-bottom: 2rem;
 }

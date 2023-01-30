@@ -56,7 +56,7 @@ body {
 }
 
 #description {
-    font-size: calc(0.7rem + 1vw);
+    font-size: calc(0.5rem + 1vw);
     color: #dbd8d8;
 
 }
@@ -109,8 +109,8 @@ body {
 
 /******************** Ou ********************/
 #output-box {
-    height: 40vh;
-    width: 92vw;
+    height: 100%;
+    width: 80vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -119,6 +119,7 @@ body {
     border-radius: 1rem;
     align-items: center;
     justify-content: space-evenly;
+    padding: 0rem 1rem;
 }
 
 #output-box div {
@@ -133,13 +134,12 @@ body {
     border: 2px solid rgb(189, 181, 181);
     border-radius: 100px;
     visibility: hidden;
-    flex: 1 1 5rem;
 }
 
 #output {
-    font-size: calc(0.5rem + 1vw);
-    flex: 1 1 20rem;
+    font-size: calc(0.7rem + 1vw);
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 /******** Footer ********/

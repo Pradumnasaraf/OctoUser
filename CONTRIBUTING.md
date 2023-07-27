@@ -1,5 +1,3 @@
-Sure! Here's the modified contribution guide for the repository [OctoUser](https://github.com/Pradumnasaraf/OctoUser):
-
 > IMPORTANT **Note**
 >
 > **Pull Requests having no issue associated with them will not be accepted. Firstly get an issue assigned, whether it's already opened or raised by you, and then create a Pull Request.**

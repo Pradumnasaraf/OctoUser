@@ -1,3 +1,12 @@
+## [0.1.7](https://github.com/Pradumnasaraf/OctoUser/compare/v0.1.6...v0.1.7) (2023-07-27)
+
+
+### Bug Fixes
+
+* README and SECURITY.md ([e36efa6](https://github.com/Pradumnasaraf/OctoUser/commit/e36efa67b71e4c0eb29a57aad3e454a6f6477df6))
+
+
+
 ## [0.1.6](https://github.com/Pradumnasaraf/OctoUser/compare/v0.1.5...v0.1.6) (2023-07-27)
 
 
@@ -33,15 +42,6 @@
 ### Bug Fixes
 
 * image issue with invalid user ([#2](https://github.com/Pradumnasaraf/OctoUser/issues/2)) ([e9b3017](https://github.com/Pradumnasaraf/OctoUser/commit/e9b3017fd37f64f85f85c80209ce9b766a611b6f))
-
-
-
-## [0.1.2](https://github.com/Pradumnasaraf/OctoUser/compare/v0.1.1...v0.1.2) (2022-08-11)
-
-
-### Bug Fixes
-
-* index.js path ([70bae82](https://github.com/Pradumnasaraf/OctoUser/commit/70bae827e04365dbeb7b61e65cf23b760d9dba99))
 
 
 
